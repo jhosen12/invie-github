@@ -10,6 +10,19 @@ body{
 img{
 max-width:100%;
 vertical-align:top;
+/*display: none;*/
+}
+img#responsive {
+
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+img#responsive {
+
+    display: block;
+}
 
 }
 
@@ -18,6 +31,7 @@ vertical-align:top;
         <title>invie</title>
     </head>
     <body>
+<img src="invie-responsive.jpg" alt="" id="responsive">
 <img src="header.jpg" id="img1" alt="">
 <img src="hero.jpg" alt="">
 <img src="acustica.jpg" alt="">
